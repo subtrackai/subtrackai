@@ -1,10 +1,16 @@
-# 👋 你好，我是 [你的名字/昵称]！
+## 🛠️ 我的技术栈
 
-一名热衷于 [你的领域，如：Web 开发、人工智能、数据科学] 的开发者/学生/爱好者。
-目前专注于学习/研究/开发 [你正在做的事情，如：React、TensorFlow、某个项目]。
-🌱 我正在学习...
-👯 我希望合作...
-🤔 我正在寻求帮助...
-💬 问我关于...
-📫 如何联系我: [你的邮箱地址或其他联系方式]
-⚡ 有趣的事实: [关于你的一个有趣的小点]
+### 语言 & 框架
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+</p>
+
+### 工具 & 平台
+<p align="left">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+</p>

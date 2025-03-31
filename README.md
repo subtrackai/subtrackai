@@ -1,6 +1,16 @@
-## 📊 我的 GitHub 统计
+name: Latest blog post workflow
+on:
+  schedule: # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual triggering
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&langs_count=8&theme=radical"/>
-</p>
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          max_post_count: "5" # 显示最近 5 篇
+          feed_list: "你的博客 RSS feed 链接" # 替换成你的 RSS 链接
